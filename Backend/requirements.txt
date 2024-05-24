@@ -1,0 +1,9 @@
+fastapi
+pydantic
+sqlalchemy
+uvicorn
+starlette
+jose
+passlib
+requests
+

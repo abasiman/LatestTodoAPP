@@ -1,0 +1,285 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(179, 180, 183, 0.452);
+}
+
+ .main_container form{
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: rgb(1, 75, 127);
+    border-style: solid;
+
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: 0 20px 4px rgba(9, 204, 159, 0.1); 
+    width: 700px;
+
+}
+
+.main_container .input{
+ margin-top: 6px;
+ }
+ .nav_buttons{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    gap: 20px;
+   
+    
+
+
+ }
+ .todolist_btn {
+    color: #181a19;
+    width: 120px;
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #034370; 
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.todolist_btn:hover{
+    background-color: rgb(165, 194, 216);
+    color: azure;
+}
+
+.completed_btn{
+    color: #181a19;
+    width: 120px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #034370; 
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.completed_btn:hover{
+    background-color: rgb(165, 194, 216);
+    color: azure;
+}
+
+.main_container .btn{
+    margin-top: 3px;
+    background-color: rgb(145, 179, 239);
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow:rgb(13, 210, 92);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 50px;
+    font-size: 20px;
+}
+
+.main_container  button{
+    border-radius: 12px;
+}
+
+.main_container  .btn:hover{
+    background-color: rgb(130, 179, 238);
+}
+
+.item_button{
+    border-style: dashed;
+    background-color:rgb(219, 234, 238);
+    color: rgb(4, 98, 192);
+    font-style: italic;
+    margin-right: 10px;
+    border-radius: 1px;
+    margin: auto;
+    
+
+}
+.main_container  form{
+    justify-content: center;
+    display: flex;
+}
+
+.todolist{
+    
+    margin-top: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(255, 23, 23, 0.5);
+    
+    border-radius: 10px;
+    cursor: pointer;
+    color: #034370;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.todoitems{
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.todolist:hover{
+    transition: background-color 0.3s ease;
+}
+.todolist .todoitems{
+    background-color: rgb(226, 230, 235);
+}
+.todolist h3{
+    color: rgb(255, 20, 20);
+    font-style: italic;
+    font-weight: normal;
+    font-size: small;
+    margin-right: 40px;
+    
+    
+}
+
+.todolist .clear_item_btn{
+    margin: 10px auto; 
+    display: block;
+    background-color: rgb(22, 117, 181);
+    color: whitesmoke;
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.todolist h2{
+    color: rgb(22, 154, 255);
+    margin-left: 20px;
+}
+
+
+
+.clear_item_btn:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.completed-tasks{
+    margin-top: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(255, 23, 23, 0.5);
+    
+    border-radius: 10px;
+    cursor: pointer;
+    color: #034370;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.completed-tasks h2{
+    margin-left: 20px;
+    text-shadow: 202px 2000px 500px rgba(0, 0, 0, 0.5);
+    color: rgb(22, 154, 255);
+}
+
+.item_button{
+    margin-left: 10px;
+    border-style:none;
+
+}
+
+.item_button:hover{
+    background-color: rgb(132, 245, 249);
+    color: black;
+    border-radius: 10px;
+}
+
+.completed-tasks .completed_list{
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;    
+    display: flex;
+    background-color: aliceblue;
+    margin-left: 20px;
+
+}
+.completed-tasks .clear_btn {
+    margin: 10px auto; 
+    display: block;
+    background-color: rgb(169, 226, 235);
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+    border-radius: 2%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.completed-tasks h3{
+color: rgb(255, 20, 20);
+font-style: italic;
+font-weight: normal;
+font-size: small;
+margin-left: 40px;
+
+    
+}
+
+.clear_btn:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.todo_cont{
+    background-color: rgb(131, 184, 234);
+    width:100%;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: #404542;
+    font-style: italic;
+    
+
+}
+
+
+.main_container  .inputs{
+    height: 60px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Make the footer full-width */
+    font-size: 0.8rem; 
+    text-align: center;
+    background-color: rgb(5, 84, 118);
+    padding: 10px;
+   
+
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(226, 233, 236);
+} 
+.attribution a { 
+    color: var(--Neon-Green); 
+}
+
+.attribution a:hover{
+    color: rgb(229, 76, 10);
+    text-shadow: 202px 2000px 500px rgba(24, 239, 103, 0.94);
+}
+
+.attribute_section{
+    display: flex;
+    justify-content: center;
+
+}
